@@ -1,0 +1,24 @@
+{
+  "name": "vef1-2020-v6",
+  "version": "1.0.0",
+  "description": "Nú er eigandi _Bókabúðarinnar_ kátur með útlitið en hefur áhyggjur af viðhaldi á vefnum.",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannhawk/vef1-2020-v6-jcs3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johannhawk/vef1-2020-v6-jcs3/issues"
+  },
+  "homepage": "https://github.com/johannhawk/vef1-2020-v6-jcs3#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "concurrently": "^5.3.0",
+    "node-sass": "^4.14.1"
+  }
+}
