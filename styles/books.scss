@@ -1,2 +1,25 @@
 // Sækja config
+@import "config";
+
 // Allir stílar fyrir bækur
+
+.b_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #cccccc;
+  }
+  
+  .b {
+    padding: 1em;
+  }
+  
+  .b_col img{
+      width: 100%;
+      height: 200px;
+  }
+  
+  .b_col img:hover{
+    transform: scale(1.3);
+  }
+  

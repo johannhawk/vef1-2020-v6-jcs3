@@ -1,2 +1,110 @@
 // Sækja config
+@import "config";
+
 // Allir stílar fyrir "global", þ.e.a.s. type selectorar, reset etc
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*main {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+  }*/
+  
+  /*--letur style--*/
+  body {
+    font-size: 16px; /*grunnstærð leturs*/
+  
+    font-family: sans-serif; /*leturgerð*/
+  
+    color: #222222; /*litur*/
+  }
+  
+  a {
+    font-family: Helvetica;
+  
+    color: #222222;
+  
+    padding-top: 1em;
+  }
+  
+  button {
+    background-color: #222222;
+    color: #cccccc;
+    border-radius: 5px;
+    padding: 0.5em;
+  }
+  
+  button {
+    &:hover {
+        background-color: orange;
+        color: #222222;
+      }
+  }
+  
+  
+  
+  button{
+      &:active {
+        background-color: cyan;
+        color: #222222;
+      }
+  }
+  
+  
+  
+  
+  .kr {
+    font-family: Arial;
+    padding-top: 0.1em;
+  }
+  
+  h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .persp{
+    perspective: 1000px;
+  }
+
+  /* almennar stærðir */
+
+.col {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+  
+  .col-1 {
+    width: 8.333333333%;
+  }
+  
+  .offset-col-1 {
+    margin-left: 8.333333333%;
+  }
+  
+  .col-4 {
+    width: 33.333333333%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }

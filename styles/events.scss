@@ -1,2 +1,61 @@
 // Sækja config
+@import "config";
+
 // Allir stílar fyrir events
+ /*---viburdir---*/
+
+ .vicol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*width: 31%;*/
+    background-color: #cccccc;
+    /*margin: 8px;*//*8+8=16px bil*/
+    padding: 1em;
+  }
+  
+  .vi_fram{
+    &.vi_aftur{
+        backface-visibility: hidden;
+      }
+  }
+
+  .vi_flipper{
+    transition: 300ms;
+    transform-style: preserve-3d;
+    transition-timing-function: ease-in-out;
+  
+    position: relative;
+    text-align: center;
+  }
+  
+  .vi_fram{
+    transform: rotateY(0deg);
+  }
+  
+  .vi_fram{
+    &h3{
+        font-size: 32px;
+    }
+  }
+  
+  .vi_aftur{
+    transform: rotateY(180deg);
+  }
+  
+  .persp{
+    &:hover{
+        transform: rotateY(180deg);
+      }
+  }
+  
+  .vi_flipper {
+    transform: rotateY(180deg);
+  }
+
+  .persp.hover{
+    &.vi_flipper {
+        transform: rotateY(180deg);
+      }
+  }
+  

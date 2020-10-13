@@ -1,3 +1,29 @@
 // Hér eiga að vera stillingar með scss breytum fyrir:
 // grid, max-width á síðu, transitions,
 // liti, margin-bottom gildi sem eru sameiginleg
+
+
+/* medium—upp að 800px */
+
+@media (max-width: 800px){
+    .col-md-12 {
+      width: 100%;
+      padding: 0.5em;
+    }
+    
+    .col-md-6 {
+      width: 50%;
+      padding: 0.5em;
+    }
+  
+  }
+  
+  /* small—upp að 500px */
+  
+  @media (max-width: 500px){
+    
+    .col-sm-12 {
+      width: 100%;
+      padding: 0.5em;
+    }
+  }
