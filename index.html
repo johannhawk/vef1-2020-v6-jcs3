@@ -13,73 +13,110 @@
       Sama og með v4:
       Hér vantar helling af div'um, sections og þannig. Virkni innan hvers „box“ er svipuð og getur
       verið endurnýtt.
+      
 
-      Sýnilausn fyrir v5 verður gefin út miðvikudaginn 7. okt og verður hægt að nýta hana
+      Sýnilausn fyrir v4 verður gefin út miðvikudaginn 30. sept og verður hægt að nýta hana
     -->
-
-    <h1>Bækur, gamlar og nýjar</h1>
-    <h2>Þig vantar bækur; við eigum bækur</h2>
-
-    <main>
-      Viðburðir
-      Útgáfuteiti bókarinnar Vaðlaheiðarvegavinnuverkfærageymsluskúr
-      Mættu í útgáfuteiti nýjustu bókarinnar okkar hjá Bókabúðinni: Vaðlaheiðarvegavinnuverkfærageymsluskúr.
-      <a href="#">Lesa nánar</a>
-
-      Fundur
-      Fundur um stöðu bókabúðarinnar.
-      <a href="#">Lesa nánar</a>
-
-      Opið alla daga
-        Opið 9–19 alla virka daga
-        Opið 10–18 laugardaga
-        Opið 12—16 sunnudaga
-
-      <a href="#">Lesa nánar</a>
-
-
+    <div class="all-grid">
+    <header class="haus row">
+      <div class="col col-12">
+      <h1>Bækur, gamlar og nýjar</h1>
+      <h2>Þig vantar bækur; við eigum bækur</h2>
+      </div>
+    </header>
+    <h2>Viðburðir</h2>
+      <main class = "row">
+        
+        <div class="col col-4 col-md-12 persp">
+          <div class="vicol  vi_flipper">
+            <div class="vi_fram">
+              <h3>Útgáfuteiti&shy;bókarinnar&shy;Vaðlaheiðar&shy;vega&shy;vinnu&shy;verkfæra&shy;geymslu&shy;skúr</h3>
+            </div>
+            <div class="vi_aftur">
+              Mættu í útgáfuteiti nýjustu bókarinnar okkar hjá Bókabúðinni: Vaðlaheiðarvegavinnuverkfærageymsluskúr.
+              
+              <a href="#">Lesa nánar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-4 col-md-12 persp">
+          <div class="vicol vi_flipper">
+            <div class="vi_fram">
+              <h3>Fundur</h3>
+            </div>
+            <div class="vi_aftur">
+              Fundur um stöðu bókabúðarinnar.
+              <a href="#">Lesa nánar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-4 col-md-12 persp">
+          <div class="vicol vi_flipper">
+            <div class="vi_fram">
+              <h3>Opið alla daga</h3>
+            </div>
+            <div class="vi_aftur">
+              Opið 9–19 alla virka daga
+              Opið 10–18 laugardaga
+              Opið 12—16 sunnudaga
+              <a href="#">Lesa nánar</a>
+            </div>
+          </div>
+        </div>
+      </main>
+      
       <h2>Bækur</h2>
-
-
-
-      <img src="img/bok1.jpg" alt=""></div>
-
-      Lærðu að læra
+      <section class = "row">
+        <div class="col col-3 col-md-6 col-sm-12">
+          <div class="b_col">
+          <img src="img/bok1.jpg" alt="">
+              <div class="b">
+                <h3>Lærðu að læra</h3>
       Jóna Jónsdóttir
-
-      4.500 kr.
+      
+      <div>4.500 kr.</div>
       <button>Kaupa</button>
+              </div>
+            </div>
+        </div>
+        <div class="col col-3 col-md-6 col-sm-12">
+          <div class="b_col">
+              <img src="img/bok2.jpg" alt="">
+                  <div class="b">
+                    <h3>Listabókin</h3>
+              Guðrún Guðrúnardóttir
+                  
+            <div class="kr">100.500 kr.</div>
+              <button>Kaupa</button>
+            </div>
+          </div>
+        </div>
+        <div class="col col-3 col-md-6 col-sm-12">
+          <div class="b_col">
+                <img src="img/bok3.jpg" alt="">
+                    <div class="b">
+                      <h3>Um rósir og blóm í bókum</h3>
+                Jón Jónsson
+                    
+                <div class="kr">500 kr.</div>
+            <button>Kaupa</button>
+                </div>
+              </div>
+            </div>
+          
+        <div class="col col-3 col-md-6 col-sm-12">
+          <div class="b_col">
+          <img src="img/bok4.jpg" alt="">
+              <div class="b">
+                <h3>Ókeypis bók með fáum orðum</h3>
+                  Jóna Jónsdóttir
+                  
+                  <div class="kr">0 kr.</div>
+                  <button>Kaupa</button>
+              </div>
+        </div>
 
-
-
-      <img src="img/bok2.jpg" alt=""></div>
-
-      Listabókin
-      Guðrún Guðrúnardóttir
-
-      100.500 kr.
-      <button>Kaupa</button>
-
-
-
-      <img src="img/bok3.jpg" alt=""></div>
-
-      Um rósir og blóm í bókum
-      Jón Jónsson
-
-      500 kr.
-      <button>Kaupa</button>
-
-
-
-      <img src="img/bok3.jpg" alt=""></div>
-
-      Ókeypis bók með fáum orðum
-      Jóna Jónsdóttir
-
-      0 kr.
-      <button>Kaupa</button>
-
-    </main>
-  </body>
+      </section>
+    </div>
+    </body>
 </html>
