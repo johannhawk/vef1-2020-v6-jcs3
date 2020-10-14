@@ -15,9 +15,10 @@
   }
   
   .vi_fram{
-    &.vi_aftur{
         backface-visibility: hidden;
-      }
+  }
+  .vi_aftur{
+    backface-visibility: hidden;
   }
 
   .vi_flipper{
@@ -34,7 +35,7 @@
   }
   
   .vi_fram{
-    &h3{
+    h3{
         font-size: 32px;
     }
   }
@@ -43,19 +44,14 @@
     transform: rotateY(180deg);
   }
   
-  .persp{
-    &:hover{
-        transform: rotateY(180deg);
-      }
-  }
-  
-  .vi_flipper {
-    transform: rotateY(180deg);
-  }
 
-  .persp.hover{
-    &.vi_flipper {
-        transform: rotateY(180deg);
-      }
-  }
+  
+.vi_aftur {
+    transform: rotateY(180deg) 
+}
+
+.persp:hover .vi_flipper, .persp.hover .vi_flipper {
+    transform: rotateY(180deg)
+}
+   
   
